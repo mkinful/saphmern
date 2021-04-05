@@ -1,11 +1,11 @@
 .navbar {
     width: 100%;
-    height: 110px;
+    height: 95px;
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 1rem;
+    padding: 1.7rem 1.1rem;
     z-index: 50;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .cartlogo__badge {
-    width: 14px;
-    height: 14px;
+    width: 19px;
+    height: 21px;
     background: #f4f4f4;
     border-radius: 50%;
     margin-left: 8px;

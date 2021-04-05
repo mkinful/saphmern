@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.order {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.fill {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.pharm {
+    padding: 60px;
+    margin: 80px;
+    background: linear-gradient(rgb(15, 174, 248), rgb(81, 159, 211));
+}
+
+.label {
+    font-size: 2rem;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    background: linear-gradient( rgb(44, 137, 190) 0%,rgb(15, 55, 128) 100%);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background: linear-gradient( rgb(28, 153, 224) 0%,rgb(17, 29, 51) 100%);
+    transition: all 0.4s ease-out;
+  }
+
+  @media only screen and (min-width: 420px) {
+    .pharm {
+        font-size: calc(16px + 2vh);
+    }
+}

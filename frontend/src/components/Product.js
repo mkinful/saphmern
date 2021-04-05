@@ -1,20 +1,18 @@
 import './Product.css';
 import { Link } from 'react-router-dom';
 
-const Product = () => {
+const Product = ({imageUrl, name, price, description, productId}) => {
     return (
         <div className="product">
-            <img src="https://www.sprouts.com/wp-content/uploads/2017/11/e4-multi-1.jpg"/>
+            <img src={imageUrl} alt={name}/>
 
             <div className="product__info">
-                <p className="product__name">Product 1</p>
-                <p className="product__decscription">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
+                <p className="product__name">{name}</p>
+                <p className="product__decscription">{description.substring(0, 100)}...</p>
 
-                <p className="product__price">$11.99</p>
+                <p className="product__price">${price}</p>
 
-                <Link to={`/product/${1111}`}className="btn__info">View</Link>
+                <Link to={`/product/${productId}`}className="btn__info">View</Link>
             </div>
         </div>
     );

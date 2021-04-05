@@ -1,0 +1,52 @@
+.about-us {
+	font-family: 'Lobster', cursive;
+	background: linear-gradient(rgb(235, 225, 225), rgb(245, 237, 237))
+}
+.about-header {
+	font-size: 3.1rem;
+	font-weight: bolder;
+	text-align: center;
+	padding: 12px;
+	margin: 1px;
+	letter-spacing: 8px;
+}
+
+.about-para {
+	padding: 30px;
+	margin: 10px;
+	font-size: 1.3rem;
+	word-spacing: 5px;
+}
+
+.about-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 35%;
+}
+
+
+.leader {
+	padding: 20px;
+	text-align: center;
+}
+
+.lead-1 {
+	font-size: 2.4rem;
+	font-weight: bolder;
+	padding: 2px;
+	word-spacing: 5px;
+}
+
+.lead-2 {
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.4rem;
+	word-spacing: 3px;
+}
+
+.owner-img {
+	width: 35%;
+}
+
+

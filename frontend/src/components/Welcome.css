@@ -1,0 +1,55 @@
+.jumbo {
+    font-weight: bolder;
+    color: rgb(236, 0, 47);
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.carol {
+    margin-top: -1px;
+}
+
+.card {
+    margin-top: auto;
+}
+
+.carol-caption {
+    color: rgb(255, 255, 255);
+	font-weight: bolder;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card-img-top {
+    transition: ease-in-out transform 0.3s;
+}
+
+.card-img-top:hover {
+	transform: scale(1.02);
+}
+
+.overlay {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.display-2 {
+    text-shadow: 2px 1px rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 736px) and (min-width: 420px) {
+    .welcome {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 820px) and (min-width: 320px) {
+    .carol-caption {
+        display: none;
+    }
+}
