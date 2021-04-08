@@ -107,7 +107,7 @@ class CardSection extends React.Component{
                     <Card.Title>Skin Care</Card.Title>
                     <Card.Text>
                     <p className="card-text">Develop a healthy routine of taking care of your skin with our products. We will help your skin glow.</p>
-                    <Link to={"/"} className="btn btn-outline-success">Beauty Products</Link>
+                    <Link to={"/homescreen"} className="btn btn-outline-success">Beauty Products</Link>
                     </Card.Text>
                     </Card.Body>
                 </Card>
@@ -117,7 +117,7 @@ class CardSection extends React.Component{
                     <Card.Title>Natural Medicines</Card.Title>
                     <Card.Text>
                     <p className="card-text">Discover a natural alternative to traditional medinces. Explore our natural oils and herbs today.</p>
-                    <Link to={"/"} className="btn btn-outline-danger">Nature's Remedy</Link>
+                    <Link to={"/homescreen"} className="btn btn-outline-danger">Nature's Remedy</Link>
                     </Card.Text>
                     </Card.Body>
                 </Card>

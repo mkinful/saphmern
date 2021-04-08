@@ -14,7 +14,7 @@ const Navbar = ({click}) => {
     return (
         <nav className="navbar">
             <div className="navbar__logo">
-                <h2>Sapphire Pharmacy</h2>
+            <Link style={{ textDecoration: 'none', color: 'white', fontSize: '1.5rem' }} to="/">Sapphire Pharmacy</Link>
             </div>
 
             <ul className="navbar__links">
