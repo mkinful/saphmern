@@ -35,7 +35,7 @@ const Navbar = ({click}) => {
                 </li>
                 <li>
                     <Link to="/login">
-                    Account
+                    My Account
                     </Link>
                 </li>
                 <li>
